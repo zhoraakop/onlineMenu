@@ -15,9 +15,8 @@
     bottom: 0;
 }
 
-
 .popup__menu{
-    min-height: 100vh;
+    height: 900px;
     min-width: 50%;
     max-width: 300px;
     position: fixed;
@@ -26,15 +25,16 @@
     padding: 0 25px;
     background-color: rgba(36,36,36);
 }  
+
 .popup__menu_white{
     background-color: white;
 }
+
 .popup_opened{
     opacity: 1;
     visibility: visible;
     right: 0;
 }
-
 
 .popup__list{
     margin: 0;
@@ -50,6 +50,7 @@
 .popup__food{
     text-decoration: none;
 }
+
 .popup__link{
     text-decoration: none;
     color: #fff1cf;
@@ -59,6 +60,7 @@
     text-transform: uppercase;
     
 }
+
 .popup__link_black{
     color: black;
 }

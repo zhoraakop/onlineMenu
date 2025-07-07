@@ -1,4 +1,3 @@
-import Drink from "../Drink/Drink";
 import Drinks from "../Drinks/Drinks";
 import Line from "../Line/Line";
 

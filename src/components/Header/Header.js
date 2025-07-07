@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router";
 
 const Header = ({ click }) => {
   const location = useLocation();
-  const isBarPage = location.pathname === "/bar";
+  //const isBarPage = location.pathname === "/bar";
   const color = () =>{
     if(location.pathname === "/bar"){
         return (<button className="header__button" onClick={click}>

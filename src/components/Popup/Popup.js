@@ -192,9 +192,9 @@ const Popup = ({ open, click }) => {
               </a>
             </li>
             <li className="popup__food">
-              <a className="popup__link popup__link_black" href="#">
+              <Link className="popup__link popup__link_black" to="/">
                 .
-              </a>
+              </Link>
             </li>
             <li className="popup__food">
               <Link
@@ -206,9 +206,9 @@ const Popup = ({ open, click }) => {
               </Link>
             </li>
             <li className="popup__food">
-              <a className="popup__link popup__link_black" href="#">
+              <Link className="popup__link popup__link_black" to="/">
                 .
-              </a>
+              </Link>
             </li>
             <li className="popup__food">
               <Link onClick={click} className="popup__link popup__link_black" to="/lunch">
@@ -225,9 +225,9 @@ const Popup = ({ open, click }) => {
           <ul className="popup__list">
             
             <li className="popup__food">
-              <a className="popup__link" href="#">
+              <Link className="popup__link" to="/">
                 .
-              </a>
+              </Link>
             </li>
             <li className="popup__food">
               <Link onClick={click} className="popup__link" to="/">
@@ -235,9 +235,9 @@ const Popup = ({ open, click }) => {
               </Link>
             </li>
             <li className="popup__food">
-              <a className="popup__link" href="#">
+              <Link className="popup__link" to="/">
                 .
-              </a>
+              </Link>
               
             </li>
             <li className="popup__food">
@@ -292,9 +292,9 @@ const Popup = ({ open, click }) => {
               </a>
             </li>
             <li className="popup__food">
-              <a className="popup__link" href="#">
+              <Link className="popup__link" to="/">
                 .
-              </a>
+              </Link>
             </li>
             <li className="popup__food">
               <Link onClick={click} className="popup__link" to="/bar">
@@ -302,9 +302,9 @@ const Popup = ({ open, click }) => {
               </Link>
             </li>
             <li className="popup__food">
-              <a className="popup__link" href="#">
+              <Link className="popup__link" to="/">
                 .
-              </a>
+              </Link>
             </li>
             <li className="popup__food">
               <Link onClick={click} className="popup__link" to="/lunch">

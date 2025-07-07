@@ -4,7 +4,7 @@ import Potato from "../../images/snack/Картошка.png";
 import Chicken from "../../images/snack/ЧикенСтрипсы.png";
 import BBQ from "../../images/snack/Крылья.png";
 import Pelm from "../../images/snack/Пельмешки.png";
-import PotatoBall from "../../images/snack/Шарики.png";
+//import PotatoBall from "../../images/snack/Шарики.png";
 import Oil from "../../images/snack/Оливки.png";
 import Cheese from "../../images/snack/Палочки.png";
 import Shrimp from "../../images/snack/Креветки.png";

@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 
 const Popup = ({ open, click }) => {
   const location = useLocation();
-  const isBarPage = location.pathname === "/bar";
+  //const isBarPage = location.pathname === "/bar";
   const page = () => {
     if (location.pathname === "/bar") {
       return (

@@ -16,7 +16,7 @@
 }
 
 .popup__menu{
-    height: 900px;
+    height: 100vh;
     min-width: 50%;
     max-width: 300px;
     position: fixed;
@@ -33,6 +33,7 @@
 .popup_opened{
     opacity: 1;
     visibility: visible;
+    top: 0;
     right: 0;
 }
 

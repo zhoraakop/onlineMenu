@@ -1,0 +1,80 @@
+.lunch {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.lunch__title {
+  color: #fff1cf;
+  text-align: center;
+  padding: 60px 0 25px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.lunch__block-time {
+    
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 25px;
+}
+
+.lunch__time {
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: rgb(125, 125, 125);
+  text-align: center;
+}
+.lunch__block-price {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 25px;
+}
+
+.lunch__price {
+    font-family: "Roboto Condensed";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #fff9eb;
+  text-align: center
+}
+
+.lunch__block-price span {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.lunch__block {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 25px;
+   padding: 0 50px; 
+}
+
+.lunch__block-title {
+  color: #fab0cb;
+   font-family: "Open Sans";
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.lunch__block-subtitle {
+    font-family: "Open Sans";
+  font-size: 22px;
+  color: #fff9eb;
+  font-weight: 500;
+  line-height: 1.35;
+  margin: 0;
+  padding: 0;
+}

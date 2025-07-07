@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.app{
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: rgba(36,36,36);
+    margin: 0 auto;
+    font-family: sans-serif;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%; 
+}
+
+.app_white{
+  background-color: white;
+}

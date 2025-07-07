@@ -1,0 +1,59 @@
+.information{
+    background-color: #343b29;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.information_disabled{
+    display: none;
+}
+
+.information__block{
+    display: flex;
+    flex-direction: column;
+    padding: 45px 20px;
+}
+
+.information__title{
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 1.17;
+}
+
+.information__address{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.information__time{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.information__telephone{
+    color: #cd7f32;
+    text-decoration: none;
+}
+
+.information__instagram{
+    color: #cd7f32;
+    text-decoration: none;
+}
+
+
+.information__map{
+    width: 100%;
+     height: 400px
+}

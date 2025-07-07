@@ -1,0 +1,90 @@
+.popup {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s linear;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.popup__menu{
+    min-height: 100vh;
+    min-width: 50%;
+    max-width: 300px;
+    position: fixed;
+    transition: right .7s;
+    right: -100vh;
+    padding: 0 25px;
+    background-color: rgba(36,36,36);
+}  
+.popup__menu_white{
+    background-color: white;
+}
+.popup_opened{
+    opacity: 1;
+    visibility: visible;
+    right: 0;
+}
+
+
+.popup__list{
+    margin: 0;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    clear: both;
+    gap:15px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.popup__food{
+    text-decoration: none;
+}
+.popup__link{
+    text-decoration: none;
+    color: #fff1cf;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+.popup__link_black{
+    color: black;
+}
+
+.popup__button{
+    border: none;
+    width: 18px;
+    height: 18px;
+    background: none;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background-image: url('../../images/Close-Icon.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.popup__button_black{
+    background-image: url('../../images/Close-Icon_black.svg');
+}
+
+.popup__button_pink{
+    background-image: url('../../images/Close-Icon_pink.svg');
+}
+

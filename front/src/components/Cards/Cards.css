@@ -1,0 +1,20 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards__block {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0 30px;
+}
+
+.cards__title {
+  text-align: center;
+  color: #e6e0bf;
+  font-size: 30px;
+  margin-bottom: 40px;
+  margin: 0;
+  padding: 60px 0;
+
+}

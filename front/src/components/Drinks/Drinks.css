@@ -1,0 +1,24 @@
+.drinks{
+
+}
+
+.drinks__title{
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    font-weight: 700;
+    color: #590000;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+    padding-top: 60px;
+    font-size: 30px;
+    line-height: 1.23;
+    text-align: center;
+}
+
+.drinks__block{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 20px;
+}

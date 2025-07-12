@@ -15,16 +15,7 @@ function App() {
   const location = useLocation();
   const isBarPage = location.pathname === "/bar";
 
-  function ScrollToTop() {
-    const { pathname } = useLocation();
-
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    }, [pathname]);
-
-    return null;
-  }
-
+  
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
@@ -46,7 +37,6 @@ function App() {
       ) : (
         <div>
           <Header click={handleOpenClick} />
-          <ScrollToTop />
           <Routes>
             <Route path="/" element={<Menu />}></Route>
             <Route path="/bar" element={<Bar />}></Route>
